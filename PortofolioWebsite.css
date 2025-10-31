@@ -1,0 +1,63 @@
+body {
+  scroll-behavior: smooth;
+  background-color: #da6e0a;
+}
+
+h2 {
+  font-weight: 700;
+  color: #222;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer a:hover {
+  color: #0d6efd;
+}
+
+
+
+.project-card {
+  min-height: 100px; 
+}
+
+.project-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.project-card .btn {
+  align-self: flex-start;
+}
+
+#frameworks img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+#frameworks img:hover {
+  transform: scale(1.1);
+}
+
+#frameworks .card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 2%;
+}
+
+#frameworks .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
